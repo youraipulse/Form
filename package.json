@@ -1,0 +1,17 @@
+{
+  "name": "logo-material",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 4180 --strictPort",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 4181 --strictPort"
+  },
+  "dependencies": {
+    "@paper-design/shaders": "0.0.82",
+    "mediabunny": "1.65.0"
+  },
+  "devDependencies": {
+    "vite": "8.3.5"
+  }
+}
