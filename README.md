@@ -65,6 +65,12 @@ Open the project folder in Codex and ask it to read CODEX_HANDOFF.md and README.
 
 Experimental 3D versions, old backups, personal videos and temporary files are not part of the release. The current glass mode is a shader that preserves the original silhouette of the logo.
 
-## Sources
+## Sources and licenses
 
-The original tweets by Stephen Haney and the Paper code are listed in ORIGINALS.md. The licenses of the dependencies and the font are in public/. This tool is a local adaptation and extension of the effects; it is not an official Paper product.
+Form is built on open-source components. Their licenses are included in `public/`:
+
+- **Paper Shaders**: Apache License 2.0 ([public/PAPER-LICENSE.txt](public/PAPER-LICENSE.txt), [public/PAPER-NOTICE.txt](public/PAPER-NOTICE.txt)).
+- **Mediabunny** (WebM export): Mozilla Public License 2.0 ([public/MEDIABUNNY-LICENSE.txt](public/MEDIABUNNY-LICENSE.txt)). Used as an npm dependency; source and documentation: https://mediabunny.dev
+- **Manrope** (font): SIL Open Font License 1.1 ([public/MANROPE-OFL.txt](public/MANROPE-OFL.txt)).
+
+The original posts by Stephen Haney and the Paper code are listed in [ORIGINALS.md](ORIGINALS.md). This tool is a local adaptation and extension of those effects; it is not an official Paper product.
